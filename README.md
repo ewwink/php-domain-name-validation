@@ -30,7 +30,7 @@ checkName::is_domain("example.com"); // will return "true"
 checkName::cleanURL("https://github.com/ewwink/php-domain-name-validation"); // will return "github.com"
 
 ### Get or Parse domain from URL and validate Domain name
-checkName::cleanURL("https://github.com/ewwink/php-domain-name-validation", true); // will return "true"
+checkName::is_domain("https://github.com/ewwink/php-domain-name-validation", true); // will return "true"
 ```
 
 
